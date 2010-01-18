@@ -88,6 +88,9 @@ sub take_action {
     Jifty->web->session->expires( (not $api->session_expires) ? '+1y' : undef );
     Jifty->web->session->set_cookie;
 
+    Jifty->web->_redirect($plugin->get_ext_perm_url)
+        if ( defined Jifty->config->app('Facebook') && Jifty->config->app('Facebook')->{ExtPerm} );
+
     # Success!
     $self->report_success;
 
