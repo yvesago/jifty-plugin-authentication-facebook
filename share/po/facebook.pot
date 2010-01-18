@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (Jifty->web->current_user->user_object->facebook_name)
+#: ../../lib/Jifty/Plugin/Authentication/Facebook/Action/LoginFacebookUser.pm:106
+msgid "Hi %1!"
+msgstr ""
+
+#: ../../lib/Jifty/Plugin/Authentication/Facebook/View.pm:24
+msgid "Login to Facebook now to get started!"
+msgstr ""
+
+#: ../../lib/Jifty/Plugin/Authentication/Facebook/View.pm:41
+msgid "Login to Facebook now to link it with your current account!"
+msgstr ""
+
+#: ../../lib/Jifty/Plugin/Authentication/Facebook/Action/LoginFacebookUser.pm:62
+msgid "Sorry, something weird happened (we couldn't create a user for you).  Try again later."
+msgstr ""
+
+#: ../../lib/Jifty/Plugin/Authentication/Facebook/Action/LinkFacebookUser.pm:40
+msgid "You must be logged in to link your user to your Facebook account."
+msgstr ""
+
+#. (Jifty->web->current_user->user_object->facebook_name)
+#: ../../lib/Jifty/Plugin/Authentication/Facebook/Action/LinkFacebookUser.pm:72
+msgid "Your account has been successfully linked to your Facebook user %1!"
+msgstr ""
